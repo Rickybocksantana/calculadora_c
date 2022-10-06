@@ -55,5 +55,5 @@ int main() {
     }
     printf("Resultado: %f", resultado);
    
-    return 0;
+    return 0; 
 }
