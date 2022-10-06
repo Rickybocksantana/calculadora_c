@@ -2,7 +2,7 @@
 
 int main() {
     // variáveis
-    char *autor_nome = "Ricardo Santana"; // String
+    char *autor_nome = "Ricardo Bock Santana"; // String
     char *autor_curso = "analise e desenvolvimento de sistemas";        // String        
     char *autor_universidade = "Unilasalle"; // String  
     int autor_matricula = 202220587;  
