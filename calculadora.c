@@ -3,9 +3,9 @@
 int main() {
     // variáveis
     char *autor_nome = "Ricardo Santana"; // String
-    char *autor_curso = "DIGITAR";        // String        
-    char *autor_universidade = "DIGITAR"; // String  
-    int autor_matricula = 1234;  
+    char *autor_curso = "analise e desenvolvimento de sistemas";        // String        
+    char *autor_universidade = "Unilasalle"; // String  
+    int autor_matricula = 202220587;  
    
     char operacao[2];
     float op1, op2, resultado = 0;
@@ -39,7 +39,7 @@ int main() {
       if (strcmp(operacao,"/") == 0)
         // se for, dividir op1 por op2 e atualizar variável resultado
         resultado = op1 / op2;
-   
+        // nas demais operações irá sempre solicitar op1 e op2
       if (strcmp(operacao,"+") == 0)
         resultado = op1 + op2;
        
